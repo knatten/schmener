@@ -64,4 +64,8 @@ var words = {
 'Hakkedepåløkkavøtt' : 'Vi har ikke det på Grünerløkka, vet du',
 'Skrafårdea?' : 'Hva skal du ha for det da?',
 'Skmedea?' : 'Hva skal du med det da?',
+'Gjøkksmydevel?' : 'Det gjør ikke så mye det, vel?',
+'Sjekkass' : 'Det skjer ikke altså',
+'Gjøkkedejen' : 'Jeg gjør ikke det igjen',
+'Fsisånn' : 'For å si det sånn',
 }
