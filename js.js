@@ -2,8 +2,6 @@ var currentWord = null;
 var state = 'init';
 
 function update(event) {
-    var word = document.getElementById("word")
-    var explanation = document.getElementById("explanation")
     if (state == 'question') {
         showAnswer();
     }
@@ -14,20 +12,24 @@ function update(event) {
 }
 
 function showAnswer() {
+    setExplanation(words[currentWord]);
     state = 'answer';
-    var answer = words[currentWord];
-    var explanation = document.getElementById("explanation");
-    explanation.innerHTML = words[currentWord];
 }
 
 function nextWord() {
     var keys = Object.keys(words);
     currentWord = keys[Math.floor(Math.random() * keys.length)];
-    var word = document.getElementById("word");
-    word.innerHTML=currentWord;
-    var explanation = document.getElementById("explanation");
-    explanation.innerHTML = "";
+    setWord(currentWord);
+    setExplanation("");
     state = 'question';
+}
+
+function setWord(word) {
+    document.getElementById("word").innerHTML = word;
+}
+
+function setExplanation(explanation) {
+    document.getElementById("explanation").innerHTML = explanation;
 }
 
 words = {
@@ -38,13 +40,14 @@ words = {
 'Fåttfrænåa?' : 'Hva har du fått for deg nå da?',
 'Skjemedea?' : 'Hva skjer med det da?',
 'Skrupøya?' : 'Skal du på Øya-festivalen?',
-'Sepårettepå.' : 'Jeg ser på det etterpå.',
+'Sepårettepå' : 'Jeg ser på det etterpå.',
 'Nåfrålle' : 'Nå får det holde.',
 'Kanknofårre' : 'Jeg kan ikke noe for det',
 'Skåppimaridarn' : 'Jeg skal opp i Maridalen',
 'Denskaruafårass' : 'Den skal du ha for altså',
 'Hakkedepåløkkavøtt' : 'Vi har ikke det på Grünerløkka, vet du',
 'Skrafårdea?' : 'Hva skal du ha for det da?',
+'Skmedea?' : 'Hva skal du med det da?',
 }
 
 function init() {
