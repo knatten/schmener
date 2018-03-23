@@ -1,5 +1,6 @@
 var currentWord = null;
 var state = 'init';
+var seen = []
 
 function update(event) {
     if (state == 'question') {
@@ -18,7 +19,13 @@ function showAnswer() {
 
 function nextWord() {
     var keys = Object.keys(words);
-    currentWord = keys[Math.floor(Math.random() * keys.length)];
+    if (keys.length == seen.length) {
+        seen = []
+    }
+    unseenKeys = keys.filter( function( el ) {
+      return seen.indexOf( el ) < 0;
+    } );
+    currentWord = unseenKeys[Math.floor(Math.random() * unseenKeys.length)];
     setWord(currentWord);
     setExplanation("");
     state = 'question';
@@ -26,13 +33,14 @@ function nextWord() {
 
 function setWord(word) {
     document.getElementById("word").innerHTML = word;
+    seen.push(word)
 }
 
 function setExplanation(explanation) {
     document.getElementById("explanation").innerHTML = explanation;
 }
 
-words = {
+var words = {
 'Schmener?' : 'Skjønner du hva jeg mener?',
 'Æreærabor?' : 'Er det her hun bor?',
 'Skaruenna?' : 'Hvor skal du hen da?',
