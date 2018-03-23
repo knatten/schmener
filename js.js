@@ -2,6 +2,12 @@ var currentWord = null;
 var state = 'init';
 var seen = []
 
+function init() {
+    var content = document.getElementById("content");
+    content.onclick = update;
+    update()
+}
+
 function update(event) {
     if (state == 'question') {
         showAnswer();
@@ -40,6 +46,8 @@ function setExplanation(explanation) {
     document.getElementById("explanation").innerHTML = explanation;
 }
 
+window.onload = init
+
 var words = {
 'Schmener?' : 'Skjønner du hva jeg mener?',
 'Æreærabor?' : 'Er det her hun bor?',
@@ -57,11 +65,3 @@ var words = {
 'Skrafårdea?' : 'Hva skal du ha for det da?',
 'Skmedea?' : 'Hva skal du med det da?',
 }
-
-function init() {
-    var content = document.getElementById("content");
-    content.onclick = update;
-    update()
-}
-
-window.onload = init
