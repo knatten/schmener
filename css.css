@@ -1,0 +1,45 @@
+body {
+    font-family: "Merriweather",Georgia,"Times New Roman",serif;
+}
+
+#content {
+    font-size:45px;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align:center;
+    color:#333;
+    margin-top:2em;
+}
+
+#clickme {
+    position:relative;
+    font-size:.3em;
+    right:5em;
+    bottom:2em;
+    color:#999;
+    margin:0;
+    padding:0;
+}
+
+#word {
+    margin:0;
+    padding:0;
+    font-size:1.6em;
+}
+
+#explanation {
+    margin-top:2em;
+    font-size:1em;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:1em;
+}
+
+#footer, #footer a {
+    color:#999;
+}
