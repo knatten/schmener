@@ -4,7 +4,7 @@ var seen = []
 
 function init() {
     var content = document.getElementById("content");
-    content.onclick = update;
+    document.onclick = update;
     update()
 }
 
