@@ -84,5 +84,7 @@ var words = {
 'Manror' : 'Med andre ord',
 'Fnisa' : 'Få en is, da',
 'Tapræblima' : 'Ta på deg og bli med, da',
-'Mæsjæsjefæra' : 'Hvem er det som er sjef her, da?',
+'Mæsjæsjefæra?' : 'Hvem er det som er sjef her, da?',
+'Skurrukevæme?' : 'Skulle du ikke være med?',
+'Hadderulaktæ?' : 'Hadde du lagt deg?',
 }
