@@ -76,7 +76,7 @@ var words = {
 'Dætiarem' : 'Det er ti av dem',
 'Møteræpøsban' : 'Møter deg på Østbanen',
 'Skrua?' : 'Hva skal du da?',
-'Frikkera?' : 'Hvorfor ikke det da?',
+'Frikkerea?' : 'Hvorfor ikke det da?',
 'Filsejemma' : 'Du får hilse hjem, da',
 'Jakkesetnpåråda' : 'Jeg har ikke sett han på år og dag',
 'Skruvæmut?' : 'Skal du være med ut?',
