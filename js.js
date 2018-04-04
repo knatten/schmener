@@ -87,4 +87,8 @@ var words = {
 'Mæsjæsjefæra?' : 'Hvem er det som er sjef her, da?',
 'Skurrukevæme?' : 'Skulle du ikke være med?',
 'Hadderulaktæ?' : 'Hadde du lagt deg?',
+'Skukkaschmelterem' : 'Skulle ikke ha smelt til dem',
+'Flea?' : 'Hvorfor det da?',
+'Sknåa?' : 'Hva skal du nå da?',
+'Mæsjmatæggaæra?' : 'Hvem er det som har tagget her da?',
 }
