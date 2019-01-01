@@ -90,4 +90,7 @@ var words = {
 'Nærusett' : 'Nei har du sett',
 'Skasepåre' : 'Jeg skal se på det',
 'Lm' : 'Liksom',
+'Sniskarua?' : 'Åssen (hva slags) is skal du ha?',
+'Fåttirædua?' : 'Hva har du fått i deg du da?',
+'Ærrejakkari?' : 'Er det jakken din?',
 }
