@@ -93,4 +93,5 @@ var words = {
 'Sniskarua?' : 'Åssen (hva slags) is skal du ha?',
 'Fåttirædua?' : 'Hva har du fått i deg du da?',
 'Ærrejakkari?' : 'Er det jakken din?',
+'Hægrunna!' : 'Her går det unna!',
 }
