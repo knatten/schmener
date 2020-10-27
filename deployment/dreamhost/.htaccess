@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/schmener/
+RewriteRule ^(.*)$ /schmener/$1 [L]
