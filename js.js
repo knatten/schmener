@@ -94,4 +94,10 @@ var words = {
 'Fåttirædua?' : 'Hva har du fått i deg du da?',
 'Ærrejakkari?' : 'Er det jakken din?',
 'Hægrunna!' : 'Her går det unna!',
+'Fåkkegjortnomere' : 'Får ikke gjort noe med det',
+'Tråkkåarupån' : 'Tråkket du på den?',
+'Trudderudderantan' : 'Trodde det det rant av den?',
+'Dæredei' : 'Da er det deg (din tur)',
+'Mjølarrumerræa' : 'Hvor mye øl har du med deg da?',
+'Sloråppmea?' : 'Slo du opp med henne?',
 }
