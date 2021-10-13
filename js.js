@@ -100,4 +100,6 @@ var words = {
 'Dæredei' : 'Da er det deg (din tur)',
 'Mjølarrumerræa' : 'Hvor mye øl har du med deg da?',
 'Sloråppmea?' : 'Slo du opp med henne?',
+'Dommestjæørt!' : 'Det er det dummeste jeg har hørt!',
+'Skråppitreddell?' : 'Skal du opp i tredje eller?',
 }
