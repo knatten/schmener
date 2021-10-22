@@ -102,4 +102,5 @@ var words = {
 'Sloråppmea?' : 'Slo du opp med henne?',
 'Dommestjæørt!' : 'Det er det dummeste jeg har hørt!',
 'Skråppitreddell?' : 'Skal du opp i tredje eller?',
+'Klepræblima!' : 'Kle på deg og bli med da!',
 }
