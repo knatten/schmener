@@ -85,7 +85,7 @@ var words = {
 'Virruano?' : 'Vil du ha noe?',
 'Æræræækjsen' : 'Er det her det er action?',
 'Jant' : 'Ikke sant',
-'Schwærærn?' : 'Hvor stor er den?',
+'Schværærn?' : 'Hvor stor er den?',
 'Døttajæræ?' : 'Dyttet jeg deg?',
 'Nærusett' : 'Nei har du sett',
 'Skasepåre' : 'Jeg skal se på det',
