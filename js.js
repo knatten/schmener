@@ -103,4 +103,5 @@ var words = {
 'Dommestjæørt!' : 'Det er det dummeste jeg har hørt!',
 'Skråppitreddell?' : 'Skal du opp i tredje eller?',
 'Skadderanomer?' : 'Skal dere ha noe mer?',
+'Nænåfårrutaræsammen!' : 'Nei nå får du ta deg sammen!',
 }
