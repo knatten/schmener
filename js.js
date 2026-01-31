@@ -96,7 +96,7 @@ var words = {
 'Hægrunna!' : 'Her går det unna!',
 'Fåkkegjortnomere' : 'Får ikke gjort noe med det',
 'Tråkkåarupån' : 'Tråkket du på den?',
-'Trudderudderantan' : 'Trodde det det rant av den?',
+'Trudderudderantan' : 'Trodde du det rant av den?',
 'Dæredei' : 'Da er det deg (din tur)',
 'Mjølarrumerræa' : 'Hvor mye øl har du med deg da?',
 'Sloråppmea?' : 'Slo du opp med henne?',
@@ -105,5 +105,5 @@ var words = {
 'Skadderanomer?' : 'Skal dere ha noe mer?',
 'Nænåfårrutaræsammen!' : 'Nei nå får du ta deg sammen!',
 'Næskunspistnoa?' : 'Nei, skulle en spist noe, da?',
-'Skurrukkehamerærmer?' : 'Skulle du ikke ha med deg meg?',
+'Skurrukkehamerærmer?' : 'Skulle du ikke ha med deg mer?',
 }
