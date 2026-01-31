@@ -105,4 +105,5 @@ var words = {
 'Skadderanomer?' : 'Skal dere ha noe mer?',
 'Nænåfårrutaræsammen!' : 'Nei nå får du ta deg sammen!',
 'Næskunspistnoa?' : 'Nei, skulle en spist noe, da?',
+'Skurrukkehamerærmer?' : 'Skulle du ikke ha med deg meg?',
 }
