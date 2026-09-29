@@ -107,4 +107,5 @@ var words = {
 'Næskunspistnoa?' : 'Nei, skulle en spist noe, da?',
 'Skurrukkehamerærmer?' : 'Skulle du ikke ha med deg mer?',
 'Åæredærnær?' : 'Åh, er det der den er?',
+'Ærnølakt?' : 'Er den ødelagt?',
 }
